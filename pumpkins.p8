@@ -5,7 +5,7 @@ __lua__
 -- ollie
 
 -- global vars
-scene=2
+scene=0
 score=0
 missed=0
 timer = 60
@@ -17,8 +17,6 @@ player.y = screenheight-15
 player.w = 15
 player.h = 15
 player.col = 3
-
-
 
 sweets = {}
 -- game loop
